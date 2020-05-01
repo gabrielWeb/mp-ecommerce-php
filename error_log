@@ -1,0 +1,42 @@
+[01-May-2020 01:08:25 UTC] PHP Fatal error:  Uncaught Exception: Wrong type array. It should be object for property payer in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(Array, 'object', 'payer')
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('payer', Array)
+#2 /home/sectorne/public_html/asociado/checkout.php(36): MercadoPago\Entity->__set('payer', Array)
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[01-May-2020 01:09:58 UTC] PHP Fatal error:  Uncaught Exception: Wrong type array. It should be object for property payer in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(Array, 'object', 'payer')
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('payer', Array)
+#2 /home/sectorne/public_html/asociado/checkout.php(36): MercadoPago\Entity->__set('payer', Array)
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[01-May-2020 01:12:26 UTC] PHP Fatal error:  Uncaught Exception: Wrong type array. It should be object for property payer in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(Array, 'object', 'payer')
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('payer', Array)
+#2 /home/sectorne/public_html/asociado/checkout.php(36): MercadoPago\Entity->__set('payer', Array)
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[01-May-2020 02:17:36 UTC] PHP Fatal error:  Uncaught Exception: Error required in attribute items in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php:118
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php(79): MercadoPago\Manager->validateAttribute(Object(MercadoPago\Preference), 'items', Array)
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(256): MercadoPago\Manager->execute(Object(MercadoPago\Preference), 'post', Array)
+#2 /home/sectorne/public_html/asociado/checkout.php(52): MercadoPago\Entity->save()
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php on line 118
+[01-May-2020 02:38:27 UTC] PHP Fatal error:  Uncaught Exception: Wrong type NULL. It should be int for property quantity in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(NULL, 'int', 'quantity')
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('quantity', NULL)
+#2 /home/sectorne/public_html/asociado/checkout.php(18): MercadoPago\Entity->__set('quantity', NULL)
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[01-May-2020 02:41:37 UTC] PHP Fatal error:  Uncaught Exception: Wrong type NULL. It should be int for property quantity in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(NULL, 'int', 'quantity')
+#1 /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('quantity', NULL)
+#2 /home/sectorne/public_html/asociado/checkout.php(18): MercadoPago\Entity->__set('quantity', NULL)
+#3 {main}
+  thrown in /home/sectorne/public_html/asociado/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
